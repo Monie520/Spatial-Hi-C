@@ -5,7 +5,10 @@ The 3D chromatin architecture is crucial for understanding gene regulatory progr
 <img width="1245" height="236" alt="image" src="https://github.com/user-attachments/assets/dbb3bac7-1a84-4947-ad50-a30c26f982df" />
 
 [1.preprocess](1.preprocess/)
+This directory contains scripts and analysis notebook for pre-processing (including mapping, contacts extraction, spots filtering) Spatial Hi-C data.
+
 [2.analysis](2.analysis/)
+This directory contains scripts and analysis notebook for re-producing figures in our manuscript.
 
 # 3.protocol
 Protocol can be found as soon as our work online.
