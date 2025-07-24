@@ -170,7 +170,6 @@ if [ -d $work_path ] && [ ! -z $sample ]; then
 else
 	echo "Please give the mother_path(of the project name) and the project name in order!
 	Just like:bash xxx.sh [/media/xxx] [Spatial-E13]
-	Or contact with genger@wechat:13958598285"
 fi
 
                
