@@ -76,7 +76,7 @@ dim(emb.m)  # 1999  64/256
 
 assay = "Spatial"
 slice = sample
-image.dir = "/media/maoni/data/CZP/spatial_hic/seurat_yuhao/core/50*50_blank_img" # "./Img"
+image.dir = "/media/maoni/data/CZP/spatial_hic/seurat/core/50*50_blank_img" # "./Img"
 image.nam = paste0(sample, "_fix.png") # "white_background_1080p.png" # "grey_pixel_1080p.png"
 coord.nam = "combine_barcode.round2round1_index1_index2.Seurat.txt"
 Seurat_object = CreateSeuratObject(counts = t(count_matrix), project = sample, assay = assay) # min.cells min.features
