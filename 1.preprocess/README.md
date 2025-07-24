@@ -1,7 +1,7 @@
 
 ## Preprocessing workflow
 We used [Higashi](https://github.com/ma-compbio/Higashi) to impute single spot contacts matrices, and performed single spot A/B compartment calling. In details, 
-1. Fastq are processed, mapped and convert to pairs file using [04.proc_paired_hic_v2.1.sh](https://github.com/Xieeeee/Droplet-Hi-C/tree/main/01.pre-process/scripts/04.proc_paired_hic_v2.1.sh).
+1. Fastq are processed, mapped, convert to bedpe file and prepare higashi file using [base_pipeline_HPC_MboI_mouse_1_50.sh](https://github.com/Monie520/Spatial-Hi-C/blob/main/1.preprocess/base_pipeline_HPC_MboI_mouse_1_50.sh).
 2. High quality cells are selected using the notebook [01.cell_filtering.ipynb](https://github.com/Xieeeee/Droplet-Hi-C/tree/main/01.pre-process/01.cell_filtering.ipynb).
 3. Contacts information from individual cells are extracted using scripts [phc.sc_splitPairs_v2.py](https://github.com/Xieeeee/Droplet-Hi-C/tree/main/01.pre-process/scripts/phc.sc_splitPairs_v2.py).
 4. Imputation is carried out for individual cells using [schic_impute_v2.sh](https://github.com/Xieeeee/Droplet-Hi-C/tree/main/01.pre-process/scripts/schic_impute_v2.sh).
