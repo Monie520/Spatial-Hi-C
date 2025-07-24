@@ -86,7 +86,7 @@ dim(emb.m)  # 1999  256
 assay = "Spatial"
 slice = sample
 Seurat_object = CreateSeuratObject(counts = t(count_matrix), project = sample, assay = assay) # min.cells min.features
-image.dir = "/media/maoni/data/CZP/spatial_hic/seurat_yuhao/core/96*96_blank_img" # "./Img"
+image.dir = "/media/maoni/data/CZP/spatial_hic/seurat/core/96*96_blank_img" # "./Img"
 image.nam = paste0(sample,"_fix.png") # "grey_pixel_1080p.png"
 coord.nam = "combine_barcode.round2round1_index1_index2.Seurat_2.txt"
 image <- readPNG(source = file.path(image.dir, image.nam))[,,1:3]
