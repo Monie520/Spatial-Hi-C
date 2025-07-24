@@ -11,4 +11,4 @@ This directory contains scripts and analysis notebook for pre-processing (includ
 This directory contains scripts and analysis notebook for re-producing figures in our manuscript.
 
 # 3.protocol
-Protocol can be found as soon as our work online.
+The protocol will be available once our work is published online.
